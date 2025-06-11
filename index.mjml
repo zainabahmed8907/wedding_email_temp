@@ -2,13 +2,274 @@
   <mj-head>
     <mj-raw>
       <meta name="color-scheme" content="light dark" />
-      <meta name="supported-color-schemes" />
+      <meta name="supported-color-schemes" content="light dark" />
     </mj-raw>
-  </mj-head>
-  <mj-body>
-    <mj-wrapper padding="10px">
-      <mj-section background-url="./images/wedding_flyover.png">
 
+    <mj-style inline="inline">
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to {
+      opacity: 1; transform: translateY(0); } } .image img { display: block;
+      margin: auto; max-width: 100% !important; } .image-small img { width:
+      100px !important; } .image-large img { width: 150px !important; } .fade-in
+      { animation: fadeIn 1.2s ease-in-out both; } @media only screen and
+      (max-width:480px) { .image-small img { width: 80px !important; }
+      .image-large img { width: 120px !important; } .fade-in {
+      animation-duration: 1s; } } @media (max-width:600px){ .image.bride{
+      padding-bottom: 10px !important; } }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px">
+    <mj-wrapper padding="10px">
+      <mj-section
+        background-url="https://raw.githubusercontent.com/zainabahmed8907/wedding_email_temp/master/images/wedding_flyover.png"
+        background-size="cover"
+        background-repeat="no-repeat"
+        background-position="center center"
+        padding="300px 0"
+      >
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="400px">
+          <mj-text
+            font-size="70px"
+            align="center"
+            color="#2E4B38"
+            font-weight="500"
+            line-height="1.2"
+          >
+            Join us for a fairytale wedding!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#E7F0EA">
+        <mj-column width="450px">
+          <mj-text align="center" color="#2E4B38" font-size="32px">
+            Dear Paula,
+          </mj-text>
+
+          <mj-text
+            line-height="1.8"
+            font-size="18px"
+            padding-left="20px"
+            padding-right="20px"
+            color="#456851"
+          >
+            We are thrilled to announce the beginning of our happily ever after
+            and would be honored to have you with us on our special day. Please
+            join us as we exchange vows and celebrate our love.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column padding="10px">
+          <mj-text align="center" font-size="40px" color="#2E4B38">
+            Wedding Details
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="10px 0">
+        <mj-group>
+          <mj-column width="60px">
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/date.png?raw=true"
+              alt="date"
+              width="50px"
+              height="50px"
+              padding="0"
+            />
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="16px" padding="10px 0" color="#456851">
+              <strong>Date</strong><br />
+              18 August
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+        <mj-group>
+          <mj-column width="60px">
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/time.png?raw=true"
+              alt="time"
+              width="50px"
+              height="50px"
+              padding="0"
+            />
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="16px" padding="10px 0" color="#456851">
+              <strong>Time</strong><br />
+              10:00AM - 6:00PM
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding-top="10px" padding-bottom="30px">
+        <mj-group>
+          <mj-column width="60px">
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/dress.png?raw=true"
+              alt="dress"
+              width="50px"
+              height="50px"
+              padding="0"
+            />
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="16px" padding="10px 0" color="#456851">
+              <strong>Dress Code</strong><br />
+              Cocktail attire, white
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+        <!-- Fourth pair: Location -->
+        <mj-group>
+          <mj-column width="60px">
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/location.png?raw=true"
+              alt="location"
+              width="50px"
+              height="50px"
+              padding="0"
+            />
+          </mj-column>
+          <mj-column>
+            <mj-text font-size="16px" padding="10px 0" color="#456851">
+              <strong>Location</strong><br />
+              <span style="font-size: 14px">Sanria Hotel, Glendale, AZ</span>
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#E7F0EA" padding-top="20px">
+        <mj-column width="600px">
+          <mj-text align="center" font-size="40px" color="#456851">
+            Your presence is needed.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0" text-align="center" background-color="#E7F0EA">
+        <mj-group>
+          <mj-column
+            padding-top="10px"
+            padding-bottom="0px"
+            padding-left="10px"
+            padding-right="10px"
+          >
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/bride.png?raw=true"
+              alt="bride"
+              padding="0"
+              width="150px"
+              css-class="image image-small fade-in bride"
+            />
+          </mj-column>
+        </mj-group>
+
+        <mj-group>
+          <mj-column
+            padding-top="0px"
+            padding-bottom="10px"
+            padding-left="10px"
+            padding-right="10px"
+          >
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/rings.png?raw=true"
+              alt="rings"
+              padding="0"
+              css-class="image image-large fade-in"
+              width="150px"
+            />
+          </mj-column>
+        </mj-group>
+
+        <mj-group>
+          <mj-column
+            padding-top="10px"
+            padding-bottom="0px"
+            padding-left="10px"
+            padding-right="10px"
+          >
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/hands.png?raw=true"
+              alt="hands"
+              padding="0"
+              css-class="image image-large fade-in"
+            />
+          </mj-column>
+        </mj-group>
+
+        <mj-group>
+          <mj-column
+            padding-top="0px"
+            padding-bottom="10px"
+            padding-left="10px"
+            padding-right="10px"
+          >
+            <mj-image
+              src="https://github.com/zainabahmed8907/wedding_email_temp/blob/master/images/groom.png?raw=true"
+              alt="groom"
+              padding="0"
+              css-class="image image-small fade-in"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section text-align="center" background-color="#E7F0EA">
+        <mj-column width="350px">
+          <mj-text
+            align="left"
+            line-height="1.7"
+            font-size="19px"
+            color="#456851"
+          >
+            Please let us know if you can join us by 17th August. You can RSVP
+            by clicking the button below:
+          </mj-text>
+
+          <mj-button
+            background-color="#456851"
+            color="#fff"
+            align="left"
+            border-radius="20px"
+          >
+            RSVP
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="600px">
+          <mj-text
+            font-size="50px"
+            color="#2E4B38"
+            font-weight="500"
+            align="center"
+          >
+            Jeremy & Leila
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="600px">
+          <mj-text
+            font-size="20px"
+            color="#2E4B38"
+            font-weight="500"
+            align="center"
+          >
+            Did you receive it by mistake? <a href="#" style="color:#2E4B38"> Unsubscribe
+            </a>
+          </mj-text>
+        </mj-column>
       </mj-section>
     </mj-wrapper>
   </mj-body>
