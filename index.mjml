@@ -1,0 +1,15 @@
+<mjml>
+  <mj-head>
+    <mj-raw>
+      <meta name="color-scheme" content="light dark" />
+      <meta name="supported-color-schemes" />
+    </mj-raw>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper padding="10px">
+      <mj-section background-url="./images/wedding_flyover.png">
+
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
